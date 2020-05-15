@@ -1,0 +1,93 @@
+<!--Set Local var for the current page here.--><!DOCTYPE html><!-- Template by Quackit.com--><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><!--moremetas here.--><meta name="keywords" content=""><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags--><title>私隐政策|add.anhees.com</title><!-- Bootstrap Core CSS--><link href="/css/bootstrap.min.css" rel="stylesheet"><!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles--><link href="/css/custom.css?v=3.1" rel="stylesheet"><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries--><!-- WARNING: Respond.js doesn't work if you view the page via file://--><!--if lt IE 9script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+--><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118036128-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118036128-1');
+</script>
+
+<script>
+var trackOutboundLink = function(url) {
+  gtag('event', 'click', {
+    'event_category': 'outbound',
+    'event_label': url,
+    'transport_type': 'beacon',
+    'event_callback': function(){}
+  });
+}
+</script>
+
+
+
+<!--Linkedin-->
+
+<!--Baidu-->
+
+<!--FaceBook-->
+
+<!--Share this-->
+
+</head><body><!-- Navigation--><nav role="navigation" class="navbar navbar-inverse navbar-fixed-top"><div class="container"><!-- Logo and responsive toggle--><div class="navbar-header"><!--button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')//span.sr-only Toggle navigation
+//span.icon-bar
+//span.icon-bar
+//span.icon-bar--><a href="http://add.anhees.com" class="navbar-brand"><span class="glyphicon glyphicon-fire"></span>                	加好物 有券先领券</a></div><!-- Navbar links--><!--#bs-example-navbar-collapse-1.collapse.navbar-collapse//ul.nav.navbar-nav
+//ul.nav.navbar-nav.navbar-right
+  //block menu
+   //if langcode=="zh-hk"
+     //include include\zh-hk\menu.jade
+  // else
+   //  include include\en\menu.jade--><!-- /.navbar-collapse--><!-- /.container--></div></nav><br><div class="container"><row><div class="col_xs_12 main-content"><h2 id="私隐政策">私隐政策</h2>
+<p>1）本网站并不需要阁下进行注册和登录操作。</p>
+<p>2）本网站不会主动收集阁下的个人信息。请勿在本网站输入任何有关阁下私隐的信息。</p>
+<p>3）本网站有部分网页包含有前往外部网站或App的链接，这些外部网站或App并非属于本网站，它们与阁下之间有不同与本网站的私隐政策，请阁下充分知晓和理解。</p>
+<p>4）本网站使用Google analytics技术进行统计层面的网络流量分析。我们严格依从Google的指引而进行使用，仅用于统计层面上的网站访问流量分析。本网站并不能够，亦不曾及将来亦不会尝试由此获得阁下的个人私隐信息。</p>
+<p>Google Analytics由Google提供，有关Google使用用户数据的说明，请参阅这里：<a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a> 。如果您需要停止Google Analytics对您数据的使用，可以通过此处停止：<a href="https://tools.google.com/dlpage/gaoptout/">https://tools.google.com/dlpage/gaoptout/</a> </p>
+<p>5）因应情况，本网站或本网站所使用之第三方组件，可能会通过cookie访问阁下设备上的某些信息。Cookie的使用，遵循浏览器安全指引。本网站并不能够，亦不曾及将来亦不会尝试由此获得阁下的个人私隐信息。阁下如不希望使用Cookie，则应自行在浏览器中关闭Cookie功能，或者停止使用本网站的服务。</p>
+</div></row></div><footer><div class="footer-blurb"><div class="container"><div class="row"><div class="col-sm-12"><center>网购有风险 请小心甄别<br>加好物 有券要领券 领券更便宜 有好物赶紧加购物车 </center></div></div></div></div></footer><div class="copyright"><div class="container"><p>Copyright © add.anhees.com 2019-2020<br><a href="/agreement.html">服务条款 | </a><a href="/privacy.html">私隐政策 </a></p></div></div><script src="/js/jquery-1.11.3.min.js"></script><script src="/js/bootstrap.min.js"></script><script type="text/javascript">
+$(document).ready(function(){
+  $("a.link_to_buy, a.link_to_quan").click(function(event){ 
+    trackOutboundLink($(this).attr('href'));
+  });
+});
+</script>
+
+<script type="text/javascript">
+		function is_weixin() {
+		    var ua = navigator.userAgent.toLowerCase();
+		    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+		        return true;
+		    } else {
+		        return false;
+		    }
+		}
+		var isWeixin = is_weixin();
+		var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight;
+		function loadHtml(){
+			var div = document.createElement('div');
+			div.id = 'weixin-tip';
+			div.innerHTML = '<p><br><br><br><img src="/img/live_weixin.png" alt="微信打开" style="max-width: 100%; height: auto;"/></p>';
+			document.body.appendChild(div);
+		}
+		
+		function loadStyleText(cssText) {
+	        var style = document.createElement('style');
+	        style.rel = 'stylesheet';
+	        style.type = 'text/css';
+	        try {
+	            style.appendChild(document.createTextNode(cssText));
+	        } catch (e) {
+	            style.styleSheet.cssText = cssText; //ie9以下
+	        }
+            var head=document.getElementsByTagName("head")[0]; //head标签之间加上style样式
+            head.appendChild(style); 
+	    }
+	    var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width: 100%; height:100%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}";
+		if(isWeixin){
+			loadHtml();
+			loadStyleText(cssText);
+		}
+</script></body>

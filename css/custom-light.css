@@ -1,0 +1,82 @@
+body {
+    padding-top: 20px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;/*"Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;*/
+    
+}
+@keyframes bggo
+{
+
+    35%  {background: yellow;}
+}
+ 
+@-webkit-keyframes bggo /* Safari 与 Chrome */
+{
+    35%  {background: yellow;}
+}
+
+.item_title, .item_img, .item_body {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item_title {
+	text-align: center; 
+	color: red;
+}
+
+.item_body {
+	text-align: left;
+	text-indent: 2em;	
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+.item_body > p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.item_body > p.bebold {
+  font-weight: bold;
+}	
+.item_img > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.the_bggo {
+	animation: bggo 5s;
+    -webkit-animation: bggo 5s; /* Safari 与 Chrome */
+}
+
+
+@media screen and (max-width: 800px) { 
+  .item_title, .item_img, .item_body {
+	width: 90%;
+ }
+ .item_title {
+	 font-size: 5vw;
+ }
+  .item_img > img {
+	width: 80%;
+}
+ .item_body {
+	 font-size: 4.4vw;
+ }
+}
+
+@media screen and (min-width: 800px) { 
+  .item_title, .item_img, .item_body {
+	width: 50%;
+ }
+ 
+ .item_title {
+	 font-size: 2.6vw;
+ }
+ .item_img > img {
+	width: 35vh;
+}
+ .item_body {
+	 font-size: 1.5vw;
+ }
+}
